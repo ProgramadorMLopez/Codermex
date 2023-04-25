@@ -67,6 +67,7 @@
 			/*font-size: 18px;*/
 			line-height: -1px;
 			border-radius: 4px;
+            
 		}
 		.header a:hover
         {
@@ -85,6 +86,10 @@
             font-size: 19px;
             font-weight: bold; 
             border: 2px solid;
+            text-align:right
+            
+	        
+            
         }
             
         #btn{
@@ -133,12 +138,7 @@
             width: 5%;
             height: 10%;
         }
-        /*
-        .container-main {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-*/
+
         .main{
             display:flex; /*grid;separa lo mismo que el grid-template-columns*/
             height: 85vh;
@@ -165,13 +165,20 @@
         }
         .main-text{
             position: relative;
-            left: 150px;
+            left: 150px;/* va moviendo entre los lados*/
             font-size: 45px;/*tamaño del texto*/
             font-weight: 900;/*espacio entre reglon*/
             font-family: "Clash Display",sans-serif;/*tipo de letra*/
             line-height: 1.15;/*espacio entre reglon 2*/
             color: var(--clr-text-dark);/*color de la letra*/
             margin-bottom: 10px;/*espacio entre el texto grande con el chico*/
+            border:1px solid;
+            border-top: 0px;/*desaparece border superior*/
+            border-width: 6px;
+            /*top: 6px; /*se mueve entre arriba y abajo*/
+            display: inline-table;
+            border-right: 0px;/*desaparece border izquierdo*/
+            padding: 50px;
         }
         
         .main-text span {
