@@ -37,7 +37,7 @@ body {
     height: 100vh;
     overflow: auto;
     scroll-snap-type: y mandatory;
-    width: 100% !important;
+    width: 100%;
 }
 
 .snap-section-1 {
@@ -85,6 +85,7 @@ body {
     color: white;
 }
 
+/*
 #logo {
     background-color: #00000000;
     color: #000000;
@@ -94,7 +95,8 @@ body {
     border: 2px solid;
     text-align: right
 }
-
+*/
+/*
 #btn {
     background-color: #006bc8;
     color: #fff;
@@ -115,10 +117,10 @@ body {
 
 #navbar-header {
     float: right;
-    /*lo mueve a la posicion de la derecha*/
-}
+    lo mueve a la posicion de la derecha
+}*/
 
-/*responsivo*/
+/*responsivo
 @media screen and (max-width: 600px) {
     .header a {
         float: none;
@@ -134,18 +136,19 @@ body {
         display: none;
     }
 }
-
+*/
 img {
     /*tamaña de las img*/
     width: 100%;
     height: 100%;
 }
 
+/*
 #instagram {
     width: 5%;
     height: 10%;
 }
-
+*/
 .main {
     display: flex;
     /*grid;separa lo mismo que el grid-template-columns*/
@@ -206,16 +209,6 @@ img {
     /*color para la etiqueta span*/
 }
 
-.sub-text {
-    position: relative;
-    left: 150px;
-    font-weight: 500;
-    width: 50ch;
-    /*acomoda los reglones*/
-    color: var(--clr-text-light);
-    margin-bottom: 40px;
-}
-
 .text-box {
     align-self: center;
     height: 60%;
@@ -232,4 +225,12 @@ img {
 
 .img-code {
     top: 50px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
