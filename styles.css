@@ -28,7 +28,18 @@
     background-position: center center;
     /*background-size: contain;*/
     background-size: 100% 100%;
+}
 
 
 
+.dropdown-menu {
+    --bs-dropdown-zindex: 985;
+    --bs-dropdown-min-width: 20rem;
+    --bs-dropdown-spacer: 0.46rem;
+
+    --bs-dropdown-border-radius: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -124px;
 }
