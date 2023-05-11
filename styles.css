@@ -43,7 +43,8 @@
 }
 
 #Login {
-    text-align: right;
+    position: relative;
+    left: 686px;
 }
 
 .dropdown-menu[data-bs-popper] {
