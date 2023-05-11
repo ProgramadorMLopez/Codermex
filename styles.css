@@ -22,7 +22,7 @@
 }
 
 /*Le damos unos stylos al fondo de la sesion container*/
-.fondoo {
+.container-main {
     background-image: url('img/violet.jpg');
     width: 100%;
     height: 100vh;
@@ -34,14 +34,23 @@
 
 
 
-.dropdown-menu {
-    --bs-dropdown-zindex: 985;
+#menu_login {
+    /*--bs-dropdown-zindex: 985;*/
     --bs-dropdown-min-width: 20rem;
     --bs-dropdown-spacer: 0.46rem;
-
     --bs-dropdown-border-radius: none;
+    text-align: center;
+}
+
+#Login {
+    text-align: right;
 }
 
 .dropdown-menu[data-bs-popper] {
-    left: -124px;
+    left: -170px;
 }
+
+/*
+#login {
+    left: 686px;
+}*/
