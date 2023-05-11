@@ -12,6 +12,7 @@
     --bs-navbar-nav-link-padding-x: 1rem;
 }
 
+/*sacamos el border que le da al presionar el icono de menu del resposivo*/
 .navbar-toggler {
     border: none !important;
 }
@@ -20,6 +21,7 @@
     box-shadow: none !important;
 }
 
+/*Le damos unos stylos al fondo de la sesion container*/
 .fondoo {
     background-image: url('img/violet.jpg');
     width: 100%;
