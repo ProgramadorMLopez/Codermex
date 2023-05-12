@@ -5,19 +5,33 @@
     --clr-bg: #ffffff;
     --clr-text-dark: #262626;
     --clr-text-light: #545454;
+    --clr-background-navbar: #814fd3;
 }
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*Tipografia del NavBar*/
 nav {
     font-family: 'Courier New', Courier, monospace;
-    ;
 }
 
-/*cambiamos el espacio que hay entre los menus del navbar*/
+/*Cambiamos el espacio que hay entre los menus del navbar*/
 .navbar {
     --bs-navbar-nav-link-padding-x: 1rem;
+    background-color: var(--clr-background-navbar);
 }
 
-/*sacamos el border que le da al presionar el icono de menu del resposivo*/
+/*Sacamos el border que le da al presionar el icono de menu del resposivo*/
 .navbar-toggler {
     border: none !important;
 }
@@ -27,16 +41,38 @@ nav {
 }
 
 /*Le damos unos stylos al fondo de la sesion container*/
+.container-main {}
+
+/*Sub menu de la parte Proyectos*/
+.dropdown-menu[data-bs-popper] {
+    top: 112%;
+}
+
 .container-main {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    width: 100%;
+}
+
+.snap-section-1 {
     background-image: url('img/violet.jpg');
     width: 100%;
-    height: 100vh;
+    height: inherit;
     background-repeat: no-repeat;
     background-position: center center;
     /*background-size: contain;*/
     background-size: 100% 100%;
+    scroll-snap-align: start;
+    min-height: 50vh;
 }
 
+.snap-section-2 {
+    scroll-snap-align: start;
+    min-height: 100vh;
+}
+
+/*
 #menu_login {
     --bs-dropdown-min-width: 20rem;
     --bs-dropdown-spacer: 0.46rem;
@@ -44,6 +80,8 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
+*/
+
 
 /*
 #Login {
