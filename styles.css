@@ -7,6 +7,11 @@
     --clr-text-light: #545454;
 }
 
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    ;
+}
+
 /*cambiamos el espacio que hay entre los menus del navbar*/
 .navbar {
     --bs-navbar-nav-link-padding-x: 1rem;
@@ -32,36 +37,18 @@
     background-size: 100% 100%;
 }
 
-
-
 #menu_login {
-    /*--bs-dropdown-zindex: 985;*/
     --bs-dropdown-min-width: 20rem;
     --bs-dropdown-spacer: 0.46rem;
-    --bs-dropdown-border-radius: none;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 
-
+/*
 #Login {
-    position: relative;
-}
+    /*float: right;
+    display: flex;
+    flex-direction: row;
 
-#menu_login {
-    position: absolute;
-    display: none;
-    background-color: #fff;
-    min-width: 100px;
-    max-width: 200px;
-    padding: 10px;
-    z-index: 1000;
-}
-
-#menu_login div {
-    color: #000;
-    text-decoration: none;
-}
-
-#Login:hover #menu_login {
-    display: block;
-}
+}*/
