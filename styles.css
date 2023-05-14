@@ -18,6 +18,8 @@
 
 body {
     margin: 0;
+    line-height: 17px;
+    font-size: 15px;
 }
 
 /*Tipografia del NavBar*/
@@ -298,47 +300,56 @@ nav {
     margin-right: auto;
     margin-left: auto;
     letter-spacing: 2px !important;
+
+    line-height: 45px;
 }
 
 @media (min-width: 320px) {
     #span-1 {
         font-size: 3vw;
+        width: 94%;
+        line-height: 25px;
     }
 }
 
 @media (min-width: 480px) {
     #span-1 {
         font-size: 2vw;
+        width: 93%;
     }
 }
 
 @media (min-width: 620px) {
     #span-1 {
         font-size: 2vw;
+        width: 93%;
     }
 }
 
 @media (min-width: 768px) {
     #span-1 {
         font-size: 2vw;
+        width: 57%;
     }
 }
 
 @media (min-width: 1024px) {
     #span-1 {
         font-size: 2vw;
+        width: 47%;
     }
 }
 
 @media (min-width: 1200px) {
     #span-1 {
         font-size: 2vw;
+        width: 40%;
     }
 }
 
 #span-1 h2 {
     font-weight: 700;
-    line-height: 74px;
+    line-height: 40px;
     font-size: 4vh;
     letter-spacing: normal;
     text-transform: uppercase;
