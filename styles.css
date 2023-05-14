@@ -257,7 +257,13 @@ nav {
     min-height: 100vh;
     background-color: #ffffff;
     padding-bottom: 0px !important;
-    padding: 90px 0;
+    padding: 120px 0;
+}
+
+@media (max-width: 991px) {
+    .snap-section-2 {
+        padding: 90px 0;
+    }
 }
 
 .content-info {
@@ -272,27 +278,18 @@ nav {
 
 /*responsivo*/
 
-@media (min-width: 320px) {
-    .content-info {
-        width: 360px;
-    }
-}
 
-@media (min-width: 480px) {
-    .content-info {
-        width: 510px;
-    }
-}
 
 @media (min-width: 768px) {
     .content-info {
-        width: 798px;
+        width: 750px;
     }
 }
 
-@media (min-width: 1024px) {
+
+@media (min-width: 992px) {
     .content-info {
-        width: 967px;
+        width: 970px;
     }
 }
 
@@ -359,7 +356,7 @@ nav {
 @media (min-width: 768px) {
     .vc-column {
         /*font-size: 2vw;*/
-        width: 54%;
+        width: 80.333333%;
     }
 }
 
@@ -440,5 +437,5 @@ h5,
 
 .margin-seven {
     margin-top: 7% !important;
-    margin-bottom: 7% !important;
+    /*margin-bottom: 7% !important;*/
 }
