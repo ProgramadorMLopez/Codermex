@@ -292,7 +292,7 @@ nav {
     position: relative;
     display: block;
     font-family: unset;
-    font-size: 2vw;
+    /*font-size: 2vw;*/
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -300,11 +300,46 @@ nav {
     letter-spacing: 2px !important;
 }
 
+@media (min-width: 320px) {
+    #span-1 {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 480px) {
+    #span-1 {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 620px) {
+    #span-1 {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 768px) {
+    #span-1 {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    #span-1 {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    #span-1 {
+        font-size: 2vw;
+    }
+}
 
 #span-1 h2 {
     font-weight: 700;
     line-height: 74px;
-    font-size: 4vw;
+    font-size: 4vh;
     letter-spacing: normal;
     text-transform: uppercase;
 }
