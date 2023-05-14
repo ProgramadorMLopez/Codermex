@@ -18,8 +18,13 @@
 
 body {
     margin: 0;
-    line-height: 17px;
+    /*line-height: 17px;*/
     font-size: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #626262;
+    line-height: 22px;
 }
 
 /*Tipografia del NavBar*/
@@ -262,94 +267,162 @@ nav {
 
 @media (min-width: 320px) {
     .content-info {
-        width: 320px;
+        width: 360px;
     }
 }
 
 @media (min-width: 480px) {
     .content-info {
-        width: 480px;
+        width: 510px;
     }
 }
 
 @media (min-width: 768px) {
     .content-info {
-        width: 768px;
+        width: 798px;
     }
 }
 
 @media (min-width: 1024px) {
     .content-info {
-        width: 1024px;
+        width: 967px;
     }
 }
 
 @media (min-width: 1200px) {
     .content-info {
-        width: 1200px;
+        width: 1183px;
     }
 }
 
-#span-1 {
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.center-col {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    clear: both;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+.vc-column {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    /*
+        margin-right: auto;
+    margin-left: auto;
     position: relative;
     display: block;
     font-family: unset;
-    /*font-size: 2vw;*/
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
     letter-spacing: 2px !important;
-
-    line-height: 30px;
+    line-height: 30px;*/
 }
 
+
+
 @media (min-width: 320px) {
-    #span-1 {
-        font-size: 3vw;
+    .vc-column {
+        /*font-size: 3vw;*/
         width: 90%;
     }
 }
 
 @media (min-width: 480px) {
-    #span-1 {
-        font-size: 2vw;
+    .vc-column {
+        /*font-size: 2vw;*/
         width: 90%;
     }
 }
 
 @media (min-width: 620px) {
-    #span-1 {
-        font-size: 2vw;
+    .vc-column {
+        /* font-size: 2vw;*/
         width: 90%;
     }
 }
 
 @media (min-width: 768px) {
-    #span-1 {
-        font-size: 2vw;
+    .vc-column {
+        /*font-size: 2vw;*/
         width: 54%;
     }
 }
 
 @media (min-width: 1024px) {
-    #span-1 {
-        font-size: 2vw;
+    .vc-column {
+        /*font-size: 2vw;*/
         width: 44%;
     }
 }
 
 @media (min-width: 1200px) {
-    #span-1 {
-        font-size: 2vw;
-        width: 40%;
+    .vc-column {
+        /*font-size: 2vw;*/
+        width: 50%;
     }
 }
 
-#span-1 h2 {
+.display-block {
+    display: block !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.margin-five {
+    margin-top: 0% !important;
+    margin-bottom: 5% !important;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px !important;
+}
+
+
+
+h1,
+.h-1 {
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 36px;
+    letter-spacing: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h-1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.h-1 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 34px;
+    letter-spacing: normal;
+}
+
+
+/*
+.vc-column h2 {
     font-weight: 700;
     line-height: 50px;
     font-size: 4vh;
     letter-spacing: normal;
     text-transform: uppercase;
-}
+}*/
