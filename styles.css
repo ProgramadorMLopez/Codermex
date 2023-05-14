@@ -27,6 +27,12 @@ body {
     line-height: 22px;
 }
 
+img,
+svg {
+    top: -2px;
+    position: relative;
+}
+
 /*Tipografia del NavBar*/
 nav {
     font-family: 'Courier New', Courier, monospace;
