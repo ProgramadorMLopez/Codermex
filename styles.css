@@ -66,29 +66,6 @@ nav {
     min-height: 50vh;
 }
 
-
-
-/*
-#menu_login {
-    --bs-dropdown-min-width: 20rem;
-    --bs-dropdown-spacer: 0.46rem;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-}
-*/
-
-
-/*
-#Login {
-    /*float: right;
-    display: flex;
-    flex-direction: row;
-
-}*/
-
-
-
 .content {
     width: 237px;
     font-size: 36px;
@@ -265,24 +242,68 @@ nav {
     scroll-snap-align: start;
     min-height: 100vh;
     background-color: #ffffff;
+    padding-bottom: 0px !important;
+    padding: 90px 0;
 }
 
 .content-info {
     text-align: center;
+    /*width: 1088px;*/
+    /*en pantalla grande*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*responsivo*/
+
+@media (min-width: 320px) {
+    .content-info {
+        width: 320px;
+    }
+}
+
+@media (min-width: 480px) {
+    .content-info {
+        width: 480px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-info {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-info {
+        width: 1024px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content-info {
+        width: 1200px;
+    }
 }
 
 #span-1 {
     position: relative;
     display: block;
     font-family: unset;
-    font-size: 120%;
-    top: 50px;
+    font-size: 2vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 #span-1 h2 {
     font-weight: 700;
     line-height: 74px;
-    font-size: 36px;
+    font-size: 3vw;
     letter-spacing: normal;
     text-transform: uppercase;
 }
