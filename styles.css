@@ -419,11 +419,20 @@ h5,
 }
 
 
-/*
-.vc-column h2 {
-    font-weight: 700;
-    line-height: 50px;
-    font-size: 4vh;
-    letter-spacing: normal;
-    text-transform: uppercase;
-}*/
+.text-med {
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.width-90 {
+    width: 90% !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.margin-seven {
+    margin-top: 7% !important;
+    margin-bottom: 7% !important;
+}
