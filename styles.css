@@ -301,14 +301,13 @@ nav {
     margin-left: auto;
     letter-spacing: 2px !important;
 
-    line-height: 45px;
+    line-height: 30px;
 }
 
 @media (min-width: 320px) {
     #span-1 {
         font-size: 3vw;
         width: 94%;
-        line-height: 25px;
     }
 }
 
@@ -349,7 +348,7 @@ nav {
 
 #span-1 h2 {
     font-weight: 700;
-    line-height: 40px;
+    line-height: 50px;
     font-size: 4vh;
     letter-spacing: normal;
     text-transform: uppercase;
