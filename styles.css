@@ -439,3 +439,19 @@ h5,
     margin-top: 7% !important;
     /*margin-bottom: 7% !important;*/
 }
+
+.btn {
+    padding: 2px 14px;
+    letter-spacing: 1px;
+}
+
+.btn-button {
+    line-height: 40px !important;
+    border: 2px solid #000;
+    font-weight: 600;
+    margin: 30px 0;
+    text-transform: uppercase;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-color: #000;
+}
