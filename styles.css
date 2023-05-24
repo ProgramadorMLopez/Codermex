@@ -50,6 +50,7 @@ nav {
 /*Sacamos el border que le da al presionar el icono de menu del resposivo*/
 .navbar-toggler {
     border: none !important;
+    margin: 0.5em;
 }
 
 .navbar-toggler:focus {
