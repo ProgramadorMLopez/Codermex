@@ -1,6 +1,6 @@
 /*Variables globales*/
 :root {
-    --clr-primary: #4807a8;
+    --clr-primary: #4807a8a6;
     --clr-secondary: #049c7b;
     --clr-bg: #ffffff;
     --clr-text-dark: #262626;
@@ -20,12 +20,13 @@ body {
     margin: 0;
     /*line-height: 17px;*/
     font-size: 15px;
-
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #626262;
     line-height: 35px;
     background-color: #7273cf;
+    background-image: url('img/pruebas.jpg');
+    background-size: 100% 100%;
 }
 
 img,
@@ -37,7 +38,7 @@ svg {
 /*Tipografia del NavBar*/
 nav {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 /*Cambiamos el espacio que hay entre los menus del navbar*/
@@ -45,6 +46,10 @@ nav {
     --bs-navbar-nav-link-padding-x: 1rem;
     --bs-navbar-padding-y: 0rem;
     background-color: var(--clr-primary);
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: -0.5rem;
 }
 
 /*Sacamos el border que le da al presionar el icono de menu del resposivo*/
@@ -84,12 +89,13 @@ nav {
     /*background-size: contain;*/
     background-size: 100% 100%;
     min-height: 50vh;
-    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    /*background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    background: linear-gradient(60deg, rgba(255, 255, 255, 0.678) 0%, rgba(255, 255, 255, 0.726) 100%);*/
 }
 
 .content {
-    width: 237px;
-    font-size: 36px;
+    width: 285px;
+    font-size: 32px;
     line-height: 40px;
     font-family: 'Muli';
     color: #ecf0f1;
@@ -111,13 +117,13 @@ nav {
 .content:after {
     content: ']';
     position: absolute;
-    right: -30px;
+    right: 5px;
     line-height: 40px;
 }
 
 .content:after,
 .content:before {
-    color: #16a085;
+    color: #4807a8;
     font-size: 42px;
     animation: 2s linear 0s normal none infinite opacity;
     -webkit-animation: 2s ease-out 0s normal none infinite opacity;
