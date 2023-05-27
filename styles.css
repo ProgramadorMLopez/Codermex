@@ -24,10 +24,13 @@ body {
     -webkit-font-smoothing: antialiased;
     color: #626262;
     line-height: 35px;
-    background-color: #7273cf;
+    background-color: #ffffff;
     background-image: url('img/pruebas.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    width: 100%;
 }
+
+
 
 img,
 svg {
