@@ -26,8 +26,10 @@ body {
     line-height: 35px;
     background-color: #ffffff;
     background-image: url('img/pruebas.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    width: 100%;
 }
 
 
@@ -469,36 +471,15 @@ h5,
 #color_div_section_3 {
     background-color: #dcdada;
     /*#8e8282;*/
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #color_div_section_3 p {
     color: #4807a8;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
 }
-
-/*
-.middle {
-    margin-top: 125px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    text-align: center;
-}
-
-.middle h1 {
-    bottom: 0;
-    left: 0;
-    font-size: 220px;
-    font-weight: 800;
-    color: var(--clr-secondary);
-    opacity: 0.1;
-    line-height: 3.5;
-    z-index: -1;
-    text-transform: uppercase;
-}*/
 
 .raise:hover,
 .raise:focus {
@@ -534,4 +515,15 @@ button {
     line-height: 1;
     margin: 2.5em;
     padding: 1em 2em;
+}
+
+.snap-section-3 {
+
+    background-image: url('img/pexels.jpg');
+    width: 100%;
+    background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
