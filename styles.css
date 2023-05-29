@@ -32,8 +32,6 @@ body {
     background-size: cover;
 }
 
-
-
 img,
 svg {
     top: -2px;
@@ -526,4 +524,12 @@ button {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.text-company img {
+    top: 300px;
+}
+
+.text-company p {
+    color: #dcdada;
 }
