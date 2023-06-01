@@ -467,14 +467,16 @@ h5,
 }
 
 #color_div_section_3 {
-    background-color: #dcdada;
+    background-color: #6c757d73;
+    /* #dcdada;*/
     /*#8e8282;*/
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 #color_div_section_3 p {
-    color: #4807a8;
+    color: white;
+    /*#4807a8;*/
     font-size: 15px;
     font-weight: 600;
 }
@@ -532,4 +534,21 @@ button {
 
 .text-company p {
     color: #dcdada;
+}
+
+.column-izq {
+    color: #000;
+    background-color: #ffffffc4;
+    width: 55.6667% !important;
+    position: relative;
+    top: 20%;
+    height: 500px;
+}
+
+.column-izq span {
+    text-decoration: underline;
+}
+
+.column-izq p {
+    text-align: justify;
 }
