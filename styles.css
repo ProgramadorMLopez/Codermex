@@ -460,8 +460,7 @@ h5,
 
 
 .snap-section-3 {
-
-    min-height: 100vh;
+    min-height: 56vh;
     padding-bottom: 0px !important;
     padding: 0px 0;
 }
@@ -518,37 +517,36 @@ button {
 }
 
 .snap-section-3 {
-
-    background-image: url('img/pexels.jpg');
+    /*background-image: url('img/pexels.jpg');*/
     width: 100%;
-    background-color: #ffffff;
+    /*background-color: #dfdcdc;*/
+    background: linear-gradient(60deg, #4876BD, #5448BD, #8F48BD, #BD48B1 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.text-company img {
-    top: 300px;
-}
 
-.text-company p {
-    color: #dcdada;
-}
 
+/*
 .column-izq {
-    color: #000;
-    background-color: #ffffffc4;
-    width: 55.6667% !important;
+    background-color: #ffffff;
+    width: 42.6667% !important;
     position: relative;
-    top: 20%;
-    height: 500px;
+    top: 32%;
+    height: 292px;
+    right: 9%;
 }
 
 .column-izq span {
     text-decoration: underline;
 }
 
+
 .column-izq p {
-    text-align: justify;
+
+    font-family: 'Open Sans', sans-serif;
 }
+
+*/
