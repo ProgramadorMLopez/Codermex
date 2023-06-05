@@ -268,7 +268,6 @@ nav {
 }
 
 .snap-section-2 {
-
     min-height: 84vh;
     background-color: #ffffff;
     padding-bottom: 0px !important;
@@ -460,9 +459,9 @@ h5,
 
 
 .snap-section-3 {
-    min-height: 56vh;
+    min-height: 90vh;
     padding-bottom: 0px !important;
-    padding: 0px 0;
+    padding: 47px 0;
 }
 
 #color_div_section_3 {
@@ -517,10 +516,10 @@ button {
 }
 
 .snap-section-3 {
-    /*background-image: url('img/pexels.jpg');*/
+    background-image: url('img/net-gris.jpg');
     width: 100%;
     /*background-color: #dfdcdc;*/
-    background: linear-gradient(60deg, #4876BD, #5448BD, #8F48BD, #BD48B1 100%);
+    /*background: linear-gradient(60deg, #4876BD, #5448BD, #8F48BD, #BD48B1 100%);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -529,24 +528,47 @@ button {
 
 
 
-/*
-.column-izq {
-    background-color: #ffffff;
-    width: 42.6667% !important;
-    position: relative;
-    top: 32%;
-    height: 292px;
-    right: 9%;
+.label {
+    color: white;
+    padding: 8px;
 }
 
-.column-izq span {
-    text-decoration: underline;
+.HTML {
+    background-color: #ff8903;
 }
 
-
-.column-izq p {
-
-    font-family: 'Open Sans', sans-serif;
+.CSS {
+    background-color: #2196F3;
 }
 
-*/
+.JAVASCRIPT {
+    background-color: #eeff00;
+}
+
+.PYTHON {
+    background-color: #79801f;
+}
+
+.BOOSTRAP {
+    background-color: #d400ff;
+}
+
+.DJANGO {
+    background-color: #12972f;
+}
+
+.VSC {
+    background-color: #133e9b;
+}
+
+.VB6 {
+    background-color: #cfcfcf;
+}
+
+.SQLSERVER {
+    background-color: #e0d20b;
+}
+
+.TALEND {
+    background-color: #454d47;
+}
