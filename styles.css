@@ -322,7 +322,8 @@ nav {
 }
 
 .text-center {
-    text-align: center !important;
+    /*text-align: center !important;*/
+    text-align: justify;
 }
 
 .vc-column {
@@ -459,13 +460,13 @@ h5,
 
 
 .snap-section-3 {
-    min-height: 90vh;
+    min-height: 92vh;
     padding-bottom: 0px !important;
-    padding: 47px 0;
+    padding: 0px 0;
 }
 
 #color_div_section_3 {
-    background-color: #6c757d73;
+    background-color: #0088ff;
     /* #dcdada;*/
     /*#8e8282;*/
     padding-top: 5px;
@@ -526,49 +527,18 @@ button {
     background-size: cover;
 }
 
-
-
-.label {
-    color: white;
-    padding: 8px;
+.row-card {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
 }
 
-.HTML {
-    background-color: #ff8903;
-}
-
-.CSS {
-    background-color: #2196F3;
-}
-
-.JAVASCRIPT {
-    background-color: #eeff00;
-}
-
-.PYTHON {
-    background-color: #79801f;
-}
-
-.BOOSTRAP {
-    background-color: #d400ff;
-}
-
-.DJANGO {
-    background-color: #12972f;
-}
-
-.VSC {
-    background-color: #133e9b;
-}
-
-.VB6 {
-    background-color: #cfcfcf;
-}
-
-.SQLSERVER {
-    background-color: #e0d20b;
-}
-
-.TALEND {
-    background-color: #454d47;
+.content-img-text img {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
 }
