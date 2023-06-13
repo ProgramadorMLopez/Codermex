@@ -426,6 +426,7 @@ h5,
 .text-med {
     line-height: 26px;
     font-size: 14px;
+    text-align: justify;
 }
 
 .width-90 {
@@ -441,26 +442,8 @@ h5,
     /*margin-bottom: 7% !important;*/
 }
 
-/*
-.btn {
-    padding: 2px 14px;
-    letter-spacing: 1px;
-}
-
-.btn-button {
-    line-height: 40px !important;
-    border: 2px solid #000;
-    font-weight: 600;
-    margin: 30px 0;
-    text-transform: uppercase;
-    --bs-btn-hover-bg: #000000;
-    --bs-btn-hover-border-color: #000000;
-    --bs-btn-color: #000;
-}*/
-
-
 .snap-section-3 {
-    min-height: 92vh;
+    min-height: 70vh;
     padding-bottom: 0px !important;
     padding: 0px 0;
 }
@@ -527,18 +510,55 @@ button {
     background-size: cover;
 }
 
-.row-card {
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
+.center {
+    text-align: center;
+}
+
+.habi {
+    display: grid;
     flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.content-img-text {
+    margin: auto;
+    padding: 9px;
 }
 
 .content-img-text img {
-    height: 30%;
-    width: 30%;
     border-radius: 50%;
-    top: 50px;
-    left: 50px;
+    width: 40%;
 }
+
+.habi-png {
+    padding: 9px;
+}
+
+.habi-png img {
+    width: 50px;
+    /*top: 30px;*/
+}
+
+.d-flex {
+    /* padding: 50px; */
+    /* margin: 40px; */
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: stretch; */
+    align-items: center;
+}
+
+/*
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}*/
