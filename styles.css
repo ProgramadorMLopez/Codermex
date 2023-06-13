@@ -523,8 +523,9 @@ button {
 }
 
 .content-img-text {
-    margin: auto;
-    padding: 9px;
+
+    padding: 15px;
+    margin-top: 15px;
 }
 
 .content-img-text img {
@@ -533,11 +534,11 @@ button {
 }
 
 .habi-png {
-    padding: 9px;
+    padding: 55px;
 }
 
 .habi-png img {
-    width: 50px;
+    width: 69px;
     /*top: 30px;*/
 }
 
