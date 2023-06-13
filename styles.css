@@ -30,6 +30,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 img,
@@ -42,6 +43,10 @@ svg {
 nav {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.226);
 }
 
 /*Cambiamos el espacio que hay entre los menus del navbar*/
@@ -77,9 +82,11 @@ nav {
 .container-main {
     height: 100vh;
     overflow: auto;
-    scroll-snap-type: y mandatory;
     width: 100%;
-    scroll-snap-align: start
+    /*
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start*/
 }
 
 .snap-section-1 {
@@ -422,6 +429,9 @@ h5,
     letter-spacing: normal;
 }
 
+.h-1 span {
+    color: var(--clr-primary);
+}
 
 .text-med {
     line-height: 26px;
@@ -563,3 +573,25 @@ hr {
     margin-inline-end: auto;
     overflow: hidden;
 }*/
+
+.mov-title {
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    /*transform: translateX(-450px); por si quiere volver al mismo lugar de donde salio*/
+}
+
+@keyframes slideInleft {
+    from {
+        transform: translateX(-900px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
