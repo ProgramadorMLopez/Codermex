@@ -615,11 +615,3 @@ hr {
 .padding {
     padding: 0 10px 0 10px
 }
-
-.fa {
-    font-family: "Font Awesome 5 Brands";
-}
-
-.fa-linkedin:before {
-    content: "\F472"
-}
