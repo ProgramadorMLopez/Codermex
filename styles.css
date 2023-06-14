@@ -543,6 +543,11 @@ button {
     width: 40%;
 }
 
+.content-img-text img:hover {
+    box-shadow: 0 0 20px var(--clr-primary);
+    ;
+}
+
 .habi-png {
     padding: 55px;
 }
@@ -563,7 +568,7 @@ button {
     align-items: center;
 }
 
-/*
+
 hr {
     display: block;
     unicode-bidi: isolate;
@@ -572,7 +577,8 @@ hr {
     margin-inline-start: auto;
     margin-inline-end: auto;
     overflow: hidden;
-}*/
+    width: 50%;
+}
 
 .mov-title {
     animation-name: slideInleft;
@@ -594,4 +600,26 @@ hr {
     to {
         transform: translateX(0);
     }
+}
+
+
+.footer {
+    min-height: 30vh;
+}
+
+.codermex {
+    min-height: 30vh;
+    padding: 10px;
+}
+
+.padding {
+    padding: 0 10px 0 10px
+}
+
+.fa {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-linkedin:before {
+    content: "\F472"
 }
