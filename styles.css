@@ -46,20 +46,42 @@ nav {
 }
 
 
-
 .nav-selection:hover {
-    background-color: rgba(255, 255, 255, 0.226);
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    border-bottom-color: inherit;
 }
 
 /*Cambiamos el espacio que hay entre los menus del navbar*/
 .navbar {
     --bs-navbar-nav-link-padding-x: 1rem;
     --bs-navbar-padding-y: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.nav-item {
+    padding: 5px 0;
+    margin: 0 10px;
+}
+
+.navbar-dark {
+    --bs-navbar-color: rgb(255 255 255);
+}
+
+.navbar-color-1 {
     background-color: var(--clr-primary);
+}
+
+.navbar-color-2 {
+    color: #626262;
 }
 
 .navbar-nav {
     --bs-nav-link-padding-y: -0.5rem;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
 }
 
 /*Sacamos el border que le da al presionar el icono de menu del resposivo*/
@@ -610,7 +632,7 @@ hr {
 }
 
 .codermex {
-    min-height: 30vh;
+    min-height: 24vh;
     padding: 10px;
 }
 
