@@ -13,6 +13,7 @@ window.addEventListener('load', function () {
 	Clase.addEventListener('scroll', function (event) {
 		event.preventDefault();
 		//console.log("Evento submit capturado");
+
 		// Todo tu codigo va acá
 		var SubClase = document.getElementsByClassName("title");
 		for (var i = 0; i < SubClase.length; i++) {
@@ -31,5 +32,4 @@ window.addEventListener('load', function () {
 
 	});
 });
-
 
