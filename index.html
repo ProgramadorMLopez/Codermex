@@ -15,7 +15,7 @@
     <!--Conectamos css,boostrap,js-->
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles.scss" />
-    <script src="script.js"></script>
+
     <!--icon para titulo-->
     <link rel="icon" href="logos\valorant.svg">
 
@@ -25,9 +25,9 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="body" style="overflow: hidden;">
+<body class="body">
     <!--ENCABEZADO-->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-color-1">
         <div class="container-fluid">
             <a class="navbar-brand navbar-dark" href="index.html"><img src="img/Lobo-blanco.png" style="height: 30px;
                 width: 30px;left:-4px;">CODERMEX</a>
@@ -75,7 +75,7 @@
     </nav>
     <!--Termina encabezado-->
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-    <section class="container-main">
+    <section class="container-main" id="scroll">
         <section class="snap-section-1">
             <div class='content'>
                 <div class='visible'>
@@ -96,7 +96,8 @@
                             <span class="margin-five no-margin-top display-block letter-spacing-2 title">
                                 DESARROLLO DE APLICACIONES Y WEB</span>
                             <h2 class="h-1"> MI NOMBRE ES <span>MARCOS LOPEZ</span>, SOFTWARE DEVELOPER.</h2>
-                            <p class="text-med width-90 center-col margin-seven no-margin-bottom">
+                            <p class="text-med width-90 center-col margin-seven no-margin-bottom text-center"
+                                style="width: 100% !important;">
                                 <!--Codermex es mi proyecto mas grande hasta el dia de hoy
                                 donde quiero reflejar mis habilidades que fui obteniendo
                                 a lo largo de las pruebas y fallos trabajando en estos ultimos años.
@@ -147,18 +148,30 @@
                     <img src="img/1686405422859 (1).jpg" alt="foto de perfil">
                 </div>
                 <div class="habi-png center d-flex">
-                    <img src="img/png/html.png" alt="habi html">
-                    <img src="img/png/css.png" alt="habi css">
-                    <img src="img/png/javascript.png" alt="habi javascript">
-                    <img src="img/png/bootstrap.png" alt="habi bootstrap">
-                    <img src="img/png/python.png" alt="habi python">
-                    <img src="img/png/django.png" alt="habi django">
-                    <img src="img/png/sqlserver.png" alt="habi sql server">
-                    <img src="img/png/mongodb.png" alt="habi mongodb">
-                    <img src="img/png/git.png" alt="habi git">
-                    <img src="img/png/github.png" alt="habi github">
-                    <img src="img/png/visualcode.png" alt="habi vscode">
-                    <img src="img/png/vb6.png" alt="habi vb6">
+                    <img src="img/png/html.png" alt="habi html" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="HTML">
+                    <img src="img/png/css.png" alt="habi css" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="CSS">
+                    <img src="img/png/javascript.png" alt="habi javascript" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="javascript">
+                    <img src="img/png/bootstrap.png" alt="habi bootstrap" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="bootstrap">
+                    <img src="img/png/python.png" alt="habi python" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="python">
+                    <img src="img/png/django.png" alt="habi django" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="django">
+                    <img src="img/png/sqlserver.png" alt="habi sql server" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="sql server">
+                    <img src="img/png/mongodb.png" alt="habi mongodb" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="mongodb">
+                    <img src="img/png/git.png" alt="habi git" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="git">
+                    <img src="img/png/github.png" alt="habi github" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="github">
+                    <img src="img/png/visualcode.png" alt="habi vscode" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="vscode">
+                    <img src="img/png/vb6.png" alt="habi vb6" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="vb6">
                 </div>
             </div>
         </section>
@@ -200,8 +213,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="min-txt redes "
-                style="background-color: #202020; min-height: 12vh; font-size: 10px; padding-left: 10px;">
+            <div class="min-txt redes"
+                style="background-color: #202020; min-height: 5vh; font-size: 10px; padding-left: 10px;">
                 2023 CODERMEX POR MLOPEZ. DESARROLLANDO MIS SUEÑOS DESDE ARGENTINA - BUENOS AIRES <svg
                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -210,7 +223,7 @@
             </div>
         </footer>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
